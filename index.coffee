@@ -1,3 +1,7 @@
+#
+# Copyright (c) 2019 Alexander Sporn. All rights reserved.
+#
+
 Enocean = require './Enocean'
 
 Accessory = undefined

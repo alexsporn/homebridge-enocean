@@ -1,3 +1,7 @@
+#
+# Copyright (c) 2019 Alexander Sporn. All rights reserved.
+#
+
 {EventEmitter} = require 'events'
 SerialPort = require 'serialport'
 EnoceanJS = require 'enocean-js'
