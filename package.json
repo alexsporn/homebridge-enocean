@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-enocean",
+  "version": "0.1.0",
+  "description": "a simple way to bridge your enocean switches to Homekit",
+  "main": "index.js",
+  "keywords": [
+    "enocean",
+    "enocean-js",
+    "homebridge-plugin"
+  ],
+  "scripts": {
+    "build": "coffee -c *.coffee"
+  },
+  "author": "alexsporn",
+  "license": "MIT",
+  "dependencies": {
+    "enocean-js": "0.0.1-beta.17",
+    "events": "^3.0.0",
+    "serialport": "^7.1.4"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.4.1",
+    "homebridge": "^0.4.48"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}

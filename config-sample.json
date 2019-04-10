@@ -1,0 +1,16 @@
+{
+  "platforms": [
+    {
+      "name": "Enocean",
+      "platform": "enocean",
+      "port": "/dev/ttyUSB0",
+      "accessories": [
+        {
+          "id": "aabbccdd",   //sender id
+          "eep": "f6-02-01",  //rocker switch
+          "name": "Kitchen switch" 
+        }
+      ]
+    }
+  ]
+}
