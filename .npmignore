@@ -1,0 +1,4 @@
+.DS_Store
+homebridge
+*.coffee
+run.sh
